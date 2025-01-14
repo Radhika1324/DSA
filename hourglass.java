@@ -25,6 +25,8 @@ public class hourglass {
         }
        }
     System.out.println(maxSum);
+    
+    sc.close();
     }
 }
     
