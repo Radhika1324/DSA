@@ -1,13 +1,13 @@
-class searchs {
-    public int search(int[] nums, int target) {
+class searchr {
+    public boolean search (int[] nums, int target) {
         int i;
         for(i=0;i<nums.length;i++)
         {
             if(target==nums[i])
             {
-                return i;
+                return true;
             }
         }
-        return -1;
+        return false;
     }
 }
